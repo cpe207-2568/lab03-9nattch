@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <title>My Portfolio</title>
+ 
+</head>
+<body class="backg">
+  
+<nav class="nav nav-tabs">
+  <a class="nav-link active" href="home.html">Home</a>
+  <a class="nav-link" href="exp.html">Experience</a>
+  <a class="nav-link" href="gallery.html">Gallery</a>
+  <a class="nav-link" href="contact.html">Contact</a>
+</nav>
+
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+</div>
+
+<div class="d-flex justify-content-center align-items-center mx-auto gap-5 " style="max-width: 800px">
+    <div>
+        <img src="imges/me.jpg" class="rounded-circle" width="200" height="200" style="object-fit: cover;">
+    </div>
+
+    <div class="d-none d-sm-block">
+        <div class="display-5  my-3 alegreya" style="flex-wrap: nowrap;" >Natchaya Duangphang</div>
+        <div  class=" alegreya">Hi, my name is Natchaya. I graduated from Chiangmai University. Studied Computer Engineering. Love movies, musics, books and play games in free time...</div>
+    </div>
+</div>
+
+<div class="display-5 d-sm-none text-center my-3 alegreya">Natchaya Duangphang</div>
+
+<p class="text-center fs-3 space-mono-bold ">
+  <button type="button" class="btn btn-outline-info  btn-lg my-3">Skills</button>
+</p>
+
+
+<div style="max-width: 800px;" class="mx-auto px-3">
+
+  <div class="d-flex box_skill mb-3 shadow-sm my-rounded-all hover-scale">
+    <div class="my-rounded-left">
+      <img src="imges/programming.jpg" width="150px" height="150px"  class="my-rounded-left d-none d-sm-block skill_pic1">
+    </div>
+    <div class="p-4">
+      <p class="fw-semibold fs-5 space-mono-bold">Programming</p>
+      <span class="faustina">
+        Learning basic web development using HTML and CSS, and gradually building up real project experience.
+      </span>
+    </div>
+  </div>
+  
+
+   <div class="d-flex box_skill mb-3 shadow-sm my-rounded-all hover-scale">
+    <div class="p-4">
+      <p class="fw-semibold fs-5 space-mono-bold">UI/UX Designing</p>
+      <span class="faustina">
+        Have a basic foundation in UX/UI design and am working on improving my wireframing and user experience skills.
+      </span>
+    </div>
+    <div class="my-rounded-right">
+      <img src="imges/ux ui.jpg" width="150px" height="150px"  class="my-rounded-right d-none d-sm-block skill_pic2">
+    </div>
+  </div>
+
+
+   <div class="d-flex box_skill mb-3 shadow-sm my-rounded-all hover-scale">
+    <div class="my-rounded-left">
+      <img src="imges/debug.webp" width="150px" height="150px"  class="my-rounded-left d-none d-sm-block skill_pic1">
+    </div>
+    <div class="p-4">
+      <p class="fw-semibold fs-5 space-mono-bold">Debugging</p>
+      <span class=" faustina">
+        Have a basic foundation in identifying and fixing simple code errors to improve program quality.      </span>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>
