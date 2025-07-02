@@ -1,0 +1,86 @@
+.backg{
+    background-color: rgb(15,23,42);
+}
+
+.backg2{
+  background-color: antiquewhite;
+}
+
+/* font name */
+.alegreya {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+
+/* font skill */
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(4, 184, 184);
+}
+
+
+.faustina {
+  font-family: "Faustina", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(176, 226, 226);
+  
+}
+
+.actor-regular {
+  font-family: "Actor", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(31, 102, 224);
+}
+
+.pt-regular {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(131, 228, 235);
+}
+
+
+
+.box_skill{
+  border: solid rgb(50, 154, 192) 2px;
+  border-radius: 20px;
+  
+}
+
+.skill_pic1{
+  object-fit: cover;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.skill_pic2{
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card_style{
+  background-color: rgba(128, 191, 233, 0.69);
+  color: rgb(18, 31, 61);
+}
+
+.card_exp{
+  background-color: rgba(128, 191, 233, 0.69);
+  color: rgb(18, 31, 61);
+}
+
+
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
+  .hover-scale:hover {
+    transform: scale(1.03);
+  }
